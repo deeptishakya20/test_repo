@@ -16,5 +16,17 @@ public class Calculator{
                System.out.println("Divisor should not be 0");
                else
              System.out.println("Division="+(number1/number2));
+
+           public static void subtraction(int number1, int number2){
+
+             System.out.println("Subtraction="+(number1-number2));
+           }
+
+
+
+           public static void multiplition(int number1, int number2){
+
+             System.out.println("Multiplition="+(number1*number2));
+
            }
 }
